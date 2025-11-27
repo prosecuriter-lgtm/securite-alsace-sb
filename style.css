@@ -1,9 +1,124 @@
-body {margin:0; font-family: Arial,sans-serif; background:#f4f4f4; color:#222;}
-.hero {background:#111; color:white; text-align:center; padding:90px 20px;}
-.hero .btn {background:#0078ff; color:white; padding:12px 25px; text-decoration:none; border-radius:5px;}
-.content {padding:40px; max-width:800px; margin:auto; text-align:center;}
-.services-grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:15px; padding:30px;}
-.card {background:white; padding:25px; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1); text-align:center;}
-.contact-box {background:#fff; padding:20px; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1); display:inline-block;}
-.small-header {background:#111; color:white; padding:20px; text-align:center;}
-.back {color:#fff; text-decoration:none;}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HERO */
+
+.hero {
+    background: #111;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.slogan {
+    font-size: 20px;
+    margin: 10px 0 30px;
+    color: #0078ff;
+}
+
+/* BUTTON */
+
+.btn-primary {
+    background: #0078ff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+/* ABOUT */
+
+.about, .cta {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* STRENGTHS */
+
+.strengths {
+    background: #fff;
+    padding: 50px 20px;
+}
+
+.strength-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.strength-card {
+    background: #0078ff;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* SERVICES */
+
+.small-header {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.services {
+    padding: 40px 20px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.service-card {
+    background: white;
+    padding: 20px;
+    border-left: 5px solid #0078ff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+/* CONTACT */
+
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* FOOTER */
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 40px;
+}
